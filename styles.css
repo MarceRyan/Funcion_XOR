@@ -1,0 +1,95 @@
+
+/* Apply 'Segoe UI' font family and adjust color scheme */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Background color */
+}
+
+/* Enhance the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px; /* Increased padding for better spacing */
+}
+
+/* Adjust the main section for better visual appeal */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Increased width for better utilization of space */
+    background-color: #f9f9f9; /* Updated background color */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+    border-radius: 15px; /* Increased border radius for a softer look */
+}
+
+/* Style the left column for improved readability and visual appeal */
+.left-column {
+    padding: 20px;
+    background-color: #4CAF50; /* Updated background color */
+    border-top-left-radius: 15px; /* Adjusted border radius */
+    border-bottom-left-radius: 15px; /* Adjusted border radius */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; /* Increased width for better balance */
+}
+
+.left-column h1 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+button {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 12px 24px; /* Adjusted button padding for better size */
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px; /* Increased border radius for a more rounded look */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Style the right column for improved visual appeal */
+.right-column {
+    width: 55%; /* Adjusted width for better balance */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border-top-right-radius: 15px; /* Adjusted border radius */
+    border-bottom-right-radius: 15px; /* Adjusted border radius */
+}
+
+
+
+
+
+

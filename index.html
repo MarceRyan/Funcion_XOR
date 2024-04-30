@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/brain.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Práctica N° 1 - Automatización de Procesos</h1>
+        <p>Entrenamiento de red neuronal y almacénalo en la tabla.</p>
+        <label for="inputValues">Entradas para la <b>"FUNCION XOR"</b></label>
+        <br><br>
+        <div>
+            <label for="input1">* Ingrese su numero 0 o 1:</label>
+            <input type="text" id="input1" maxlength="1" pattern="[01]" required>
+        </div>
+        <br>
+        <div>
+            <label for="input2">* Ingrese su numero 0 o 1:</label>
+            <input type="text" id="input2" maxlength="1" pattern="[01]" required>
+        </div>
+        <br><br>
+        <button id="generateBtn">Entrenar</button>
+        <br>
+        <br>
+        <p id="namesText">Nombres: Carhuaz Guillermo, Jordy</p>
+        <p id="namesText">Nombres: Morales Rimac, Marcelo Bryan</p>
+        <p id="namesText">Nombres: Morales Rubin, Christian</p>
+        <p>---------------------------------------------------------------</p>
+        <p id="namesText">Asesor: Ing. Jose Luis Sosa Sanchez</p>
+    </header>
+    
+    <main>
+        <table id="randomTable">
+            <thead>
+                <tr>
+                    <th>Generar Entrenamiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán las filas con números aleatorios -->
+            </tbody>
+        </table>
+    </main>
+</body>
+<script src="script.js"></script>
+<script src="ejemplo01.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
